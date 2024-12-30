@@ -1,1 +1,71 @@
-# Osman
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osman Khan - Contact Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img.profile {
+            max-width: 150px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+        img.qr {
+            max-width: 200px;
+            margin: 10px 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Osman Khan</h1>
+        <p>Welcome to my personal contact page!</p>
+    </header>
+    <div class="container">
+        <img src="portrait.jpg" alt="Osman Khan's Portrait" class="profile">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> <a href="mailto:oskhan2005@gmail.com">oskhan2005@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="tel:+8801580414686">+8801580414686</a></p>
+        <p><strong>Imo:</strong> <a href="tel:+8801639119642">+8801639119642</a></p>
+        <p><strong>Brilliant Number:</strong> <a href="tel:+8809638069155">+8809638069155</a></p>
+        <p><strong>Facebook:</strong> <a href="https://www.facebook.com/osmankhan05" target="_blank">Osman Khan</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/osman_khan_2005" target="_blank">@osman_khan_2005</a></p>
+        <h2>QR Codes</h2>
+        <div>
+            <h3>WhatsApp</h3>
+            <img src="whatsapp-qr-code.jpg" alt="WhatsApp QR Code" class="qr">
+        </div>
+        <div>
+            <h3>Instagram</h3>
+            <img src="instagram-qr-code.jpg" alt="Instagram QR Code" class="qr">
+        </div>
+    </div>
+</body>
+</html>
